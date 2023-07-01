@@ -1,0 +1,124 @@
+/*Intricate squiggles*/
+body{
+    background-image:
+            url("../../../images/index/vector/green.svg"),
+            url("../../../images/index/vector/darkblue_ring.svg"),
+            url("../../../images/index/vector/red_dots.svg"),
+            url("../../../images/index/vector/blue_ring.svg"),
+            url("../../../images/index/vector/orange_round.svg"),
+            url("../../../images/index/vector/whitegreen_circle.svg"),
+            url("../../../images/index/vector/blue_dots.svg");
+    background-repeat: no-repeat;
+    background-size:
+            5%,
+            5%,
+            4%,
+            5%,
+            10%,
+            4%,
+            3%;
+    background-position:
+            80% 10%,
+            -3% 20%,
+            -2% 35%,
+            -3% 60%,
+            105% 85%,
+            -2% 95%,
+            60% 101%;
+}
+/*Intricate squiggles end*/
+
+/*Content*/
+.container-grey{
+    max-width: 1170px;
+    margin: 152px auto 30px auto;
+    text-align: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container-grey{
+        max-width: 670px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1380px){
+    .container-grey{
+        max-width: 770px;
+    }
+}
+
+.container-grey__box{
+    background-color: #f2f6f9;
+    border-radius: 8px;
+    box-shadow: 0 14px 55px #f2f5fa;
+
+}
+
+.container-grey__box>h3{
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.container-grey__box_404{
+    display: inline-flex;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container-grey__box_404>h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-right: 5%;
+}
+
+.container-grey__box_404>img{
+    width: 15%;
+}
+
+.container-grey__box>img{
+    width: 80%;
+    display: inline-block;
+}
+
+.container-grey__box>a{
+    display: inline-block;
+    position: relative;
+    left: 22%;
+    bottom: 340px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container-grey__box>h3{
+        margin: 10px 0;
+    }
+
+    .container-grey__box_404{
+        display: inline-flex;
+        width: 70%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    .container-grey__box>a{
+        left: 22%;
+        bottom: 200px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1380px){
+    .container-grey__box>h3{
+        margin: 20px 0;
+    }
+
+    .container-grey__box_404{
+        display: inline-flex;
+        width: 70%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    .container-grey__box>a{
+        left: 22%;
+        bottom: 230px;
+    }
+}
+/*Content end*

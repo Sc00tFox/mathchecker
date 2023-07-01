@@ -1,0 +1,305 @@
+/*Intricate squiggles*/
+.slide-main{
+    background-image:
+            url("../../../images/index/vector/orange_round.svg"),
+            url("../../../images/index/vector/darkblue_ring.svg"),
+            url("../../../images/index/vector/red_dots.svg"),
+            url("../../../images/index/vector/darkblue_ring.svg"),
+            url("../images/orange_ring.svg"),
+            url("../images/Intricate_squiggle_1.svg"),
+            url("../images/Intricate_squiggle_2.svg"),
+            url("../images/Intricate_squiggle_3.svg");
+    background-repeat: no-repeat;
+    background-size:
+            5%,
+            5%,
+            3%,
+            5%,
+            7%,
+            25%,
+            15%,
+            10%;
+    background-position:
+            70% 20%,
+            -3% 20%,
+            9% 34%,
+            86% 74%,
+            23% 86%,
+            55% 35%,
+            -2% 95%,
+            80% 98%;
+}
+
+.slide-1-bg{
+    background-image:
+        url("../../../images/index/vector/blue_dots.svg"),
+        url("../../../images/index/vector/whitegreen_circle.svg");
+    background-repeat: no-repeat;
+    background-size:
+            5%,
+            5%;
+    background-position:
+            12% 13%,
+            -3% 50%;
+}
+
+.slide-2-bg{
+    background-image:
+            url("../images/kllmpls.svg"),
+            url("../../../images/index/vector/blue_round.svg");
+    background-repeat: no-repeat;
+    background-size:
+            6%,
+            8%;
+    background-position:
+            10% 2%,
+            103% 70%;
+}
+
+.slide-3-bg{
+    background-image:
+            url("../../../images/index/vector/blue_ring.svg"),
+            url("../../../images/index/vector/green.svg"),
+            url("../../../images/index/vector/blue_ring.svg"),
+            url("../../../images/index/vector/orange_round.svg");
+    background-repeat: no-repeat;
+    background-size:
+            5%,
+            5%,
+            7%,
+            10%;
+    background-position:
+            102% 20%,
+            50% 60%,
+            8% 90%,
+            104% 100%;
+}
+/*Intricate squiggles end*/
+
+/*Content*/
+.slide{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.slide__box-text{
+    max-width: 40%;
+    margin-top: 10%;
+}
+
+.slide__box-text_title{
+    font-weight: 700;
+    font-size: 1.7em;
+    margin-bottom: 10%;
+}
+
+.slide__box-text_text{
+    font-size: 1.2em;
+}
+
+.slide>img{
+    width: 60%;
+}
+
+.slide__line{
+    border: 3px solid #111188;
+}
+
+/*Slide-main*/
+.slide-main{
+    height: 100vh;
+}
+
+.slide-main__container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.slide-main__container__box-welcome{
+    float: left;
+    margin-top: 25vh;
+    max-width: 50%;
+    text-align: center;
+}
+.slide-main__container__box-welcome_title{
+    font-size: 1.6em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.slide-main__container__box-welcome_text{
+    font-size: 1.2em;
+    color: #d1cfcf;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.slide-main__container__box-PMFI{
+    width: 22%;
+    float: right;
+    margin-top: 10vh;
+    text-align: center;
+}
+.slide-main__container__box-PMFI>img{
+    width: 100%;
+}
+.slide-main__container__box-PMFI_description{
+    color: #d1cfcf;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .slide-main{
+        height: 600px;
+    }
+
+    .slide-main__container__box-welcome{
+        margin-top: 140px;
+    }
+
+    .slide-main__container__box-PMFI{
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1380px){
+    .slide-main__container__box-welcome{
+        margin-top: 170px;
+    }
+
+    .slide-main__container__box-PMFI{
+        margin-top: 60px;
+    }
+}
+/*Slide-main end*/
+
+/*Slide-1*/
+.slide-1{
+    height: 100%;
+}
+
+.slide-1__box-text{
+    float: left;
+    margin-top: 10%;
+}
+
+.slide-1__box-text_title{
+    margin-bottom: 10%;
+}
+
+.slide-1__box-text_text{
+}
+
+.slide-1>img{
+    float: right;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+/*Slide-1 end*/
+
+/*Slide-2*/
+.slide-2__box-subjects{
+    text-align: center;
+    width: 100%;
+}
+
+.slide-2__box-subjects>h1{
+    font-size: 2em;
+    margin: 30px 0;
+}
+
+.slide-2__box-subjects_items{
+    width: 100%;
+}
+
+.slide-2__box-subjects_items_subject{
+    padding: 10px 25px;
+    color: #f26a36;
+    border-bottom: #1943ef 2px solid;
+}
+
+.slide-2__box-subjects_items_subject:nth-child(2){
+    margin: 0 10%;
+}
+
+.slide-2__box-text{
+    float: right;
+    margin-top: 10%;
+}
+.slide-2__box-text_title{
+    margin-bottom: 10%;
+}
+
+.slide-2>img{
+    width: 45%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+/*Slide-2 end*/
+
+/*Slide-3*/
+.slide-3{
+    margin-top: 3%;
+}
+
+.slide-3__box-text{
+    position: relative;
+    max-width: 80%;
+    /*float: left;*/
+    margin-bottom: 250px;
+}
+.slide-3__box-text_title{
+    margin-bottom: 6%;
+
+}
+.slide-3__box-text_text{
+    margin-left: 8%;
+}
+.slide-3__box-text_text_items{
+    margin-bottom: 3%;
+}
+
+.slide-3__box-text_text_items:nth-child(1){
+    list-style-image: url(../images/icon/index_1.svg);
+
+}
+.slide-3__box-text_text_items:nth-child(2){
+    list-style-image: url(../images/icon/index_2.svg);
+}
+.slide-3__box-text_text_items:nth-child(3){
+    list-style-image: url(../images/icon/index_3.svg);
+}
+.slide-3__box-text_text_items-MC{
+    font-weight: 700;
+    list-style-image: url(../images/icon/index_4.svg);
+}
+
+.slide-3__box-text_text_pic{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 27%;
+}
+
+.slide-3__box-fast-start{
+    box-shadow: 0 14px 55px #f2f5fa;
+    border-radius: 8px;
+    width: 100%;
+    height: 6em;
+    margin: 50px 0;
+}
+.slide-3__box-fast-start_items{
+    padding-top: 1.5em;
+    text-align: center;
+}
+.slide-3__box-fast-start_items_title{
+    display: inline-block;
+    font-size: 1.4em;
+}
+.slide-3__box-fast-start_items>a{
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+/*Slide-3 end*/
+/*Content end*/
+
